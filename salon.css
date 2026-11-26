@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    border-bottom: 1px solid rgb(205, 200, 200);
+    padding: 40px 130px;
+}
+.head1{
+    display: flex;
+    gap: 50px;
+}
+.a1{
+    color: #69B99D;
+    border-bottom: 3px solid  #69B99D;
+}
