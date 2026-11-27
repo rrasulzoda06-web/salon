@@ -28,10 +28,12 @@ h1{
     max-width: 1400px;
     margin: auto;
     margin-top: 200px;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
     position: relative;
     padding-left: 130px;
     padding-right: 50px;
+    border-bottom: 1px solid #69B99D;
+
 }
 .duu{
     display: flex;
@@ -72,12 +74,17 @@ h1{
     padding-right: 150px;
     position: relative;
     margin-top: 250px;
-    margin-bottom: 200px;
+    padding-bottom: 200px;
+    border-bottom: 1px solid #69B99D;
+
 }
 .bb{
     display: flex;
     flex-direction: column;
     width: 700px;
+}
+.bb h1{
+    font-size: 50px;
 }
 .bb p{
     font-size: 18px;
@@ -95,9 +102,11 @@ h1{
 }
 .chor{
     max-width: 1400px;
+    margin: auto;
     padding: 40px 130px;
-    margin-bottom: 200px;
-    margin-top: 250px;
+    padding-bottom: 200px;
+    margin-top: 200px;
+    border-bottom: 1px solid #69B99D;
 }
 .c1{
     color: #69B99D;
@@ -106,6 +115,10 @@ h1{
     display: flex;
     gap: 30px;
     justify-content: space-between;
+}
+.d4{
+    font-size: 50px;
+    font-weight: 1000;
 }
 .d{
     display: flex;
@@ -119,7 +132,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
     box-shadow: 1px 1px 10px rgb(222, 217, 217);
     height: 400px;
     width: 500px;
@@ -136,4 +149,45 @@ h1{
 .d p{
     width: 450px;
     font-size: 18px;
+}
+.panj{
+    max-width: 1400px;
+    padding: 0px 130px;
+    max-width: 1400px;
+    margin: auto;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    border-bottom: 1px solid #69B99D;
+
+}
+.f1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.ff{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+.fff{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.f{
+    box-shadow: 1px 1px 10px rgb(214, 210, 210);
+    padding: 50px;
+}
+.f span{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.f p{
+    color: gray;
+}
+.ffff{
+    text-align: center;
+    padding-top: 50px;
 }
