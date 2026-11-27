@@ -20,7 +20,7 @@ header{
     border-bottom: 3px solid  #69B99D;
 }
 h1{
-    font-family: Poppins serif;
+    font-family: 'Poppins' serif;
 }
 .du{
     display: flex;
@@ -199,7 +199,7 @@ h1{
     display: flex;
     padding-bottom: 200px;
     align-items: center;
-    gap: 300px;
+    gap: 400px;
 }
 .g h1{
     font-size: 50px;
@@ -231,4 +231,25 @@ h1{
 }
 .gg1 p{
     color: gray;
+}
+.haft{
+    width: 1260px;
+    margin: auto;
+    height: 220px;
+    background-color: #69B99D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.hh{
+    display: flex;
+    gap: 30px;
 }
