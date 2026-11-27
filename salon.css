@@ -27,7 +27,7 @@ h1{
     justify-content: space-between;
     max-width: 1400px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 200px;
     position: relative;
     padding-left: 130px;
@@ -71,7 +71,7 @@ h1{
     margin: auto;
     padding-right: 150px;
     position: relative;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-bottom: 200px;
 }
 .bb{
@@ -92,4 +92,48 @@ h1{
     position: absolute;
     z-index: 1;
     top: -30px;
+}
+.chor{
+    max-width: 1400px;
+    padding: 40px 130px;
+    margin-bottom: 200px;
+    margin-top: 250px;
+}
+.c1{
+    color: #69B99D;
+}
+.dd1{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px rgb(222, 217, 217);
+    height: 400px;
+    width: 500px;
+    gap: 30px;
+    border-bottom: 5px solid #69B99D;
+    border-radius: 5px;
+}
+.dd p{
+    text-align: center;
+    padding: 0px 50px;
+    font-style: 18px;
+    color: gray;
+}
+.d p{
+    width: 450px;
+    font-size: 18px;
 }
