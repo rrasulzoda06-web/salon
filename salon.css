@@ -28,7 +28,7 @@ h1{
     max-width: 1400px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     position: relative;
     padding-left: 130px;
     padding-right: 50px;
@@ -63,4 +63,33 @@ h1{
     width: 130px;
     text-align: center;
     border-radius: 5px;
+}
+.se{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    padding-right: 150px;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.bb{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.bb p{
+    font-size: 18px;
+    color: gray;
+    line-height: 1.5;
+}
+.b1{
+    position: absolute;
+    z-index: 2;
+}
+.b2{
+    position: absolute;
+    z-index: 1;
+    top: -30px;
 }
