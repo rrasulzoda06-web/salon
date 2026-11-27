@@ -464,5 +464,7 @@ header{
 .hh{
     gap: 30px;
 }
-
+.h img{
+    width: 130px;
+}
 }
