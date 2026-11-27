@@ -19,3 +19,48 @@ header{
     color: #69B99D;
     border-bottom: 3px solid  #69B99D;
 }
+h1{
+    font-family: Poppins serif;
+}
+.du{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 50px;
+}
+.duu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rasm{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    z-index: 2;
+}
+.a{
+    position: relative;
+    right: 100px;;
+}
+.duu h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.a2{
+    color: gray;
+    font-size: 18px;
+}
+.a3{
+    background-color: #69B99D;
+    padding: 10px 40px;
+    color: white;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+}
