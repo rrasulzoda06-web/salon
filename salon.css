@@ -191,3 +191,44 @@ h1{
     text-align: center;
     padding-top: 50px;
 }
+.shash{
+    width: 1400px;
+    margin: auto;
+    padding-top: 200px;
+    padding-left: 120px;
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+    gap: 300px;
+}
+.g h1{
+    font-size: 50px;
+}
+.g1{
+    font-size: 18px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.g3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #69B99D;
+    padding: 10px 30px;
+    width: 170px;
+    color: white;
+    border-radius: 10px;
+}
+.gg1{
+    display: flex;
+    gap: 10px;
+}
+.gg{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.gg1 p{
+    color: gray;
+}
